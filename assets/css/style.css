@@ -52,15 +52,16 @@ body {
     background-position: center;
 }
 
-/*Apply styles to content section*/
+/*Apply styles to content section*/}
 
 .container {
     width: 75%;
+    display: inline-block;
 }
 .content {
-    width: 75%;
     display: inline-block;
     margin-left: 20px;
+    width: 75%;
 }
 
 .section-class {
@@ -80,11 +81,11 @@ img {
     margin-bottom: 20px;
     font-size: 36px;
     display: inline-block;
-    width: 40%;
+    width: 50%;
 }
 
 .section-class p {
-    display: inline-block;
+    display: inline;
     text-align: left;
     width: 60%;
 }
@@ -109,8 +110,6 @@ img {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    position: relative;
-    bottom: 640px;
 }
 
 .benefit-headings {
