@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Apply styles to Header */
+.header {
+    padding: 20px;
+    background-color: #2a607c;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav {
+    float: right;
+    margin: 14px 0;
+}
+
+.header nav ul li {
+    display: inline;
+}
+
+.header nav ul li a {
+    font-weight: lighter;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline;
+    margin: 30px;
+}
+/*Apply styles to Hero*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Apply styles to content section*/
+
+.container {
+    width: 75%;
+}
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.section-class {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+img {
+    max-height: 200px;
+}
+
+.section-class h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    display: inline-block;
+    width: 40%;
+}
+
+.section-class p {
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Apply style to Benefits section*/
+.benefits {
+    margin-right: 20px;
+    padding: 30px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    position: relative;
+    bottom: 640px;
+}
+
+.benefit-headings {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    text-align: center;
+}
+
+.benefits p {
+    text-align: left;
+}
+
