@@ -52,12 +52,8 @@ body {
     background-position: center;
 }
 
-/*Apply styles to content section*/}
+/*Apply styles to content section*/
 
-.container {
-    width: 75%;
-    display: inline-block;
-}
 .content {
     display: inline-block;
     margin-left: 20px;
